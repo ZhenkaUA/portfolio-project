@@ -8,6 +8,7 @@
 
 body{
     font-family: var(--default-font-family);
+    background-color: var(--secondary-color);
 }
 .hero{
     background-color: var(--main-color);
@@ -30,7 +31,7 @@ body{
     margin: 0;
 }
 
-.hero h2{
+.hero h3{
     font-size: 24px;
     color: var(--secondary-color);
     margin: 24px auto 44px auto;
@@ -44,3 +45,84 @@ body{
     font-weight: 500;
     padding: 18px 48px;
 }
+
+.btn-branding-outline{
+    color:var(--accent-color);
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 16px 30px;
+    margin-top: 34px;
+}
+
+.container p{
+    color:white;
+}
+
+h2{
+    font-family: var(--heading-font-family);
+    font-size: 64px;
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+.header{
+    color:var(--main-color);
+    margin: 68px 0;
+}
+
+.weather-description{
+margin-right: 20px;
+}
+
+    .portfolio-description,
+    .landing-description{
+      margin-left: 20px;  
+    }
+
+@media (max-width: 1200px) {
+    h2 {
+      font-size: 40px;}
+      .container p{
+        font-size: 16px;
+    }
+  
+    }
+
+    @media (max-width: 990px) {
+    .btn-branding-outline{
+        margin-top: 5px;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 10px 20px; 
+    }}
+ 
+@media (max-width: 767px) {
+    h2 {
+      font-size: 50px;
+      text-align: center;
+    }
+    
+    .img-block-project{
+        display: none;
+    }
+
+    .btn-branding-outline{
+        display: block;
+        margin: 30px auto 60px auto
+    }
+
+    .weather-description,
+    .portfolio-description,
+    .landing-description
+    {
+margin: 0;
+    }
+    .container p{
+    text-align: center;
+}  
+.hero h1{  
+    font-size: 76px;   
+}
+} 
