@@ -56,6 +56,17 @@ body{
     margin-top: 34px;
 }
 
+.btn-branding:hover {
+    color:var(--accent-color);
+background-color: var(--main-color);
+    border-color: var(--accent-color);
+  }
+
+  .btn-branding-outline:hover{
+    color:var(--main-color);
+    background-color: var(--secondary-color);
+        border-color: var(--main-color);
+  }
 .container p{
     color:white;
 }
@@ -79,6 +90,10 @@ margin-right: 20px;
     .portfolio-description,
     .landing-description{
       margin-left: 20px;  
+    }
+
+    .img-block-project{
+        margin-bottom: 60px;
     }
 
 @media (max-width: 1200px) {
