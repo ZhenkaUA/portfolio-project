@@ -10,10 +10,19 @@ body{
     font-family: var(--default-font-family);
     background-color: var(--secondary-color);
 }
-.hero, .about-me-info{
+.text-center{
+    text-align: center;
+}
+.hero{
     background-color: var(--main-color);
     text-align: center;
     padding: 160px 20px;
+}
+
+.about-me-info{
+    background-color: var(--main-color);
+    padding: 80px 20px;
+    text-align: center;
 }
 
 .hero p{
@@ -76,14 +85,14 @@ background-color: var(--main-color);
     background-color: var(--secondary-color);
         border-color: var(--main-color);
   }
-.container p{
+.project_description{
     color:white;
 }
 .about-me-info p{
     color: var(--secondary-color);
-    font-size: 20px;
-    text-align: left;
+    font-size: 21px;
     margin-top: 32px;
+    text-align: left;
 }
 
 .button-about-me{
@@ -116,12 +125,31 @@ margin-right: 20px;
         margin-bottom: 60px;
     }
 
+    .certificates{
+        margin: 40px auto;
+    }
+
+    .figma, .design{
+margin-top: 20px;
+    }
+
+    .header-certificates{
+        color:var(--main-color);
+        font-size: 20px;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+
 @media (max-width: 1200px) {
     h2 {
       font-size: 40px;}
       .container p{
         font-size: 16px;
     }
+
+    .figma, .design{
+        margin-top: 15px;
+            }
   
     }
 
@@ -142,8 +170,12 @@ margin-right: 20px;
     }
 
     .button-about-me{
+        text-align: center;
         float: none;
     }
+    .figma, .design{
+        margin-top: 10px;
+            }
 }
  
 @media (max-width: 767px) {
@@ -173,4 +205,7 @@ margin: 0;
 .hero h1{  
     font-size: 76px;   
 }
+.figma, .design, .shecodes_plus{
+    margin-top: 10px;
+        }
 } 
