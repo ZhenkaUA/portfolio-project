@@ -10,7 +10,7 @@ body{
     font-family: var(--default-font-family);
     background-color: var(--secondary-color);
 }
-.hero{
+.hero, .about-me-info{
     background-color: var(--main-color);
     text-align: center;
     padding: 160px 20px;
@@ -29,6 +29,15 @@ body{
     font-weight: bold;
     color: var(--secondary-color);
     margin: 0;
+}
+
+.about-me-info h1{
+    font-family: var(--heading-font-family);
+    font-size: 62px;
+    font-weight: bold;
+    color: var(--secondary-color);
+    margin: 0;
+    text-align: left;
 }
 
 .hero h3{
@@ -70,6 +79,17 @@ background-color: var(--main-color);
 .container p{
     color:white;
 }
+.about-me-info p{
+    color: var(--secondary-color);
+    font-size: 20px;
+    text-align: left;
+    margin-top: 32px;
+}
+
+.button-about-me{
+    float: left;
+    margin: 24px auto 38px auto;
+}
 
 h2{
     font-family: var(--heading-font-family);
@@ -105,13 +125,26 @@ margin-right: 20px;
   
     }
 
-    @media (max-width: 990px) {
+    @media (max-width: 991px) {
     .btn-branding-outline{
         margin-top: 5px;
         font-size: 14px;
         font-weight: 500;
         padding: 10px 20px; 
-    }}
+    }
+    .about-me-info p {
+        text-align: center;
+    }
+
+    .about-me-info h1 {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .button-about-me{
+        float: none;
+    }
+}
  
 @media (max-width: 767px) {
     h2 {
