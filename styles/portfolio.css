@@ -100,6 +100,14 @@ background-color: var(--main-color);
     margin: 24px auto 38px auto;
 }
 
+.about-me-text{
+    margin-right: 34px;
+}
+
+.my-photo{
+    margin-top: 30px;
+}
+
 h2{
     font-family: var(--heading-font-family);
     font-size: 64px;
@@ -140,6 +148,19 @@ margin-top: 20px;
         margin-left: 10px;
     }
 
+    .name-of-project_work{
+        color:var(--main-color);
+        font-size: 24px;
+        margin: 24px auto 14px auto;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    @media (max-width: 1400px) {
+        .mt-5 {
+          font-size: 56px;}
+        }
+
 @media (max-width: 1200px) {
     h2 {
       font-size: 40px;}
@@ -150,7 +171,9 @@ margin-top: 20px;
     .figma, .design{
         margin-top: 15px;
             }
-  
+            .mt-5 {
+                font-size: 46px;
+            }    
     }
 
     @media (max-width: 991px) {
@@ -208,4 +231,10 @@ margin: 0;
 .figma, .design, .shecodes_plus{
     margin-top: 10px;
         }
+        .row {
+            display: block;
+          }
+          .mt-5 {
+            font-size: 38px;
+        }  
 } 
