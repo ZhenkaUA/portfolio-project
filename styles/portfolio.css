@@ -16,12 +16,12 @@ body{
 .hero{
     background-color: var(--main-color);
     text-align: center;
-    padding: 160px 20px;
+    padding: 100px 20px 160px 20px;
 }
 
 .about-me-info{
     background-color: var(--main-color);
-    padding: 80px 20px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -155,6 +155,41 @@ margin-top: 20px;
         font-weight: bold;
         text-align: center;
     }
+    .logo{
+        max-width: 110px;
+    }
+
+    nav ul{
+        padding: 0;
+        margin: 0;
+    }
+    nav li{
+        display: inline;
+        list-style: none;
+        line-height: 74px;
+        margin-left: 16px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    nav{
+        background-color: var(--main-color);
+        padding: 14px;
+    }
+
+    nav a{
+        text-decoration: none;
+        color: #142D47;
+        transition: all 100ms ease-in-out;
+    }
+
+    nav a:hover,
+    nav li.active a{
+        color: var(--accent-color);
+    }
+
+    .nav-block{
+        background-color: var(--main-color);  
+    }
 
     @media (max-width: 1400px) {
         .mt-5 {
@@ -237,4 +272,19 @@ margin: 0;
           .mt-5 {
             font-size: 38px;
         }  
-} 
+}
+
+@media (max-width: 495px) {
+    .logo{
+        display: none;
+    }
+    .justify-content-between {
+        justify-content:center !important;
+    }
+}
+
+@media (max-width: 372px) {
+    nav li {
+        font-size: 14px;
+    }
+}
