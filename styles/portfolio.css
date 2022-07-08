@@ -328,9 +328,10 @@ margin: 0;
 .hero h1{  
     font-size: 76px;   
 }
-.figma, .design, .shecodes_plus{
+.figma, .design, .shecodes_plus, .shecodes_responsive{
     margin-top: 10px;
         }
+    
         .row {
             display: block;
           }
